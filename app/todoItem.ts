@@ -1,11 +1,10 @@
 export class TodoItem{
-    text: String;
-
-    constructor(text1: String){
-        this.text = text1;
-    }
+    constructor(private text: String, private result: String){ }
 
     getText(){
         return this.text;
+    }
+    getResult() {
+        return this.result;
     }
 }

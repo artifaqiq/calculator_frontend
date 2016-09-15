@@ -10,30 +10,33 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var todoItem_1 = require('./todoItem');
-// import {httpFactory} from "@angular/http/src/http_module";
+var calculator_service_1 = require("./calculator.service");
+require('rxjs/Rx');
+require('rxjs/add/operator/map');
 var AppComponent = (function () {
-    // public static readonly CALC_API_URL = "http://localhost:9000/calculate";
-    function AppComponent() {
+    function AppComponent(calculatorService) {
+        this.calculatorService = calculatorService;
         this.todos = new Array();
     }
     AppComponent.prototype.addTodo = function (input) {
-        /* http.get(url: string, options?: RequestOptionsArgs)
-         .map(response => response.json());*/
-        input.value = ">" + input.value;
-        this.createTransitionToTheNewLine(input.value);
+        var expression = input.value;
+        // input.value = ">" + input.value;
+        // this.createTransitionToTheNewLine(input.value);
         var str;
-        str = "fromGet";
-        str = ">" + str;
-        this.createTransitionToTheNewLine(str);
-        input.value = '';
+        console.log("expression=" + expression);
+        this.calculatorService.evaluateExpression(input.value)
+            .subscribe(function (data) { return input.value = data.result; }, function (error) { return alert(error); });
+        console.log("result = " + this.result);
+        str = ">" + input.value;
+        // this.createTransitionToTheNewLine();
     };
-    AppComponent.prototype.createTransitionToTheNewLine = function (input_value) {
+    AppComponent.prototype.createTransitionToTheNewLine = function (input_value, result) {
         var num = 1;
         while (input_value.length > 40 * num) {
-            this.todos.push(new todoItem_1.TodoItem(input_value.substring(40 * (num - 1), 40 * num)));
+            this.todos.push(new todoItem_1.TodoItem(input_value.substring(40 * (num - 1), 40 * num), result));
             num++;
         }
-        this.todos.push(new todoItem_1.TodoItem(input_value.substring(40 * (num - 1))));
+        this.todos.push(new todoItem_1.TodoItem(input_value.substring(40 * (num - 1)), result));
     };
     AppComponent.prototype.doneTyping = function ($event) {
         if ($event.which === 13) {
@@ -43,10 +46,11 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: "\n    <div which = \"40px\" *ngFor=\"let todo of todos\">\n        {{todo.getText()}}<br>\n    </div>\n    <b>></b><input class=\"inputClass\" #todotext (keyup)=\"doneTyping($event)\">\n    ",
-            styleUrls: ['app/app.component.css']
+            template: "\n    <div which = \"40px\" *ngFor=\"let todo of todos\">\n        {{todo.getText()}}<br>\n        {{todo.getResult()}}\n    </div>\n    <b>></b><input class=\"inputClass\" #todotext (keyup)=\"doneTyping($event)\">\n    ",
+            styleUrls: ['app/app.component.css'],
+            providers: [calculator_service_1.CalculatorService]
         }), 
-        __metadata('design:paramtypes', [])
+        __metadata('design:paramtypes', [calculator_service_1.CalculatorService])
     ], AppComponent);
     return AppComponent;
 }());
