@@ -1,11 +1,22 @@
-div{
+div {
     color: white; 
 }
-b{
+
+b {
     color: white; 
 }
-input{
+
+textarea {
     color: white;
     background: black;
     border: 0;
+    outline:none;
+    width: 90%;
+    height: 200px;
+    resize: none;
+}
+
+p {
+    color: greenyellow;
+    display: inline;
 }

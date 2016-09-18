@@ -1,6 +1,6 @@
 import { Injectable }     from '@angular/core';
-import {Http, Response, Request, RequestMethod} from '@angular/http';
-import { Headers, RequestOptions } from '@angular/http';
+import {Http } from '@angular/http';
+import { Headers} from '@angular/http';
 
 import 'rxjs/add/operator/map'
 
@@ -15,14 +15,8 @@ export class CalculatorService {
     evaluateExpression(expression: string) {
         let headers = new Headers({
             'Content-Type': 'application/json',
-            // "Access-Control-Allow-Origin": "*",
             'expression': expression
         })
-        let options = new RequestOptions({
-            headers: headers,
-            method: RequestMethod.Get,
-
-        });
 
         console.log(expression);
 

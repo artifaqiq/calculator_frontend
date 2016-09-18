@@ -20,12 +20,7 @@ var CalculatorService = (function () {
     CalculatorService.prototype.evaluateExpression = function (expression) {
         var headers = new http_2.Headers({
             'Content-Type': 'application/json',
-            // "Access-Control-Allow-Origin": "*",
             'expression': expression
-        });
-        var options = new http_2.RequestOptions({
-            headers: headers,
-            method: http_1.RequestMethod.Get,
         });
         console.log(expression);
         return this.http.get(this.calclatorApiUrl + "?expression=" + encodeURIComponent(expression)).map(function (res) { return res.json(); });
