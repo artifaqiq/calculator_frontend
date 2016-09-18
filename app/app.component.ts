@@ -7,9 +7,10 @@ import 'rxjs/add/operator/map';
 @Component({
   selector: 'my-app',
   template:`
-    <div which = "40px" *ngFor="let todo of todos">
-        {{todo.getText()}}<br>
-        {{todo.getResult()}}
+    <div <!--which = "40px" *ngFor="let todo of todos"-->>
+       <!-- {{todo.getText()}}<br>
+        {{todo.getResult()}}-->
+        {{inputPAram}}
     </div>
     <b>></b><input class="inputClass" #todotext (keyup)="doneTyping($event)">
     `,
@@ -19,6 +20,7 @@ import 'rxjs/add/operator/map';
 
 export class AppComponent {
   todos: Array<TodoItem>;
+
   result: string;
 
   constructor(private calculatorService: CalculatorService) {

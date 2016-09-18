@@ -46,7 +46,7 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: "\n    <div which = \"40px\" *ngFor=\"let todo of todos\">\n        {{todo.getText()}}<br>\n        {{todo.getResult()}}\n    </div>\n    <b>></b><input class=\"inputClass\" #todotext (keyup)=\"doneTyping($event)\">\n    ",
+            template: "\n    <div <!--which = \"40px\" *ngFor=\"let todo of todos\"-->>\n       <!-- {{todo.getText()}}<br>\n        {{todo.getResult()}}-->\n        {{inputPAram}}\n    </div>\n    <b>></b><input class=\"inputClass\" #todotext (keyup)=\"doneTyping($event)\">\n    ",
             styleUrls: ['app/app.component.css'],
             providers: [calculator_service_1.CalculatorService]
         }), 
