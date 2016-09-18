@@ -74,7 +74,7 @@ export class AppComponent {
             error => {
               console.error(error)
               this.currentStatus = 'error'
-              this.currentResult = 'Input error'
+              this.currentResult = 'Syntax error: incorrect expressuin'
             }
         );
 

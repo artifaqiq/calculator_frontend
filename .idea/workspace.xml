@@ -2,268 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e11d7f95-e086-49f6-a9be-3a913573f25e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/browser-sync" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/concurrent" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/concurrently" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/dev-ip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/express" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/har-validator" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/has-ansi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/lite-server" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/loose-envify" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/lt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/mkdirp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/ng-xi18n" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/ngc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/nopt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/rc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/rimraf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/semver" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/strip-ansi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/strip-json-comments" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/supports-color" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/throttleproxy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/touch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/tsc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/tsickle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/tsserver" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/typings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/uuid" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/weinre" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/window-size" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/agent-base/node_modules/.bin/semver" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/send/node_modules/.bin/mime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/touch/node_modules/.bin/nopt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/typings-core/node_modules/.bin/tsc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/typings-core/node_modules/.bin/tsserver" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/.bin/window-size" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/boom/images/boom.png" afterPath="$PROJECT_DIR$/node_modules/boom/images/boom.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-bold-webfont.eot" afterPath="$PROJECT_DIR$/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-bold-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-bold-webfont.ttf" afterPath="$PROJECT_DIR$/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-bold-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-bold-webfont.woff" afterPath="$PROJECT_DIR$/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-bold-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-bold-webfont.woff2" afterPath="$PROJECT_DIR$/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-bold-webfont.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-it-webfont.eot" afterPath="$PROJECT_DIR$/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-it-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-it-webfont.ttf" afterPath="$PROJECT_DIR$/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-it-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-it-webfont.woff" afterPath="$PROJECT_DIR$/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-it-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-it-webfont.woff2" afterPath="$PROJECT_DIR$/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-it-webfont.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-regular-webfont.eot" afterPath="$PROJECT_DIR$/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-regular-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-regular-webfont.ttf" afterPath="$PROJECT_DIR$/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-regular-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-regular-webfont.woff" afterPath="$PROJECT_DIR$/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-regular-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-regular-webfont.woff2" afterPath="$PROJECT_DIR$/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-regular-webfont.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_add.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_add.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_attach.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_attach.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_code.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_code.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_copy.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_copy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_delete.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_delete.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_edit.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_edit.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_error.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_error.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_excel.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_excel.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_find.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_find.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_gear.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_gear.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_go.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_go.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_green.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_green.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_key.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_key.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_lightning.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_lightning.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_link.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_link.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_paintbrush.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_paintbrush.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_paste.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_paste.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_red.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_red.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_refresh.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_refresh.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_save.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_save.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_acrobat.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_acrobat.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_actionscript.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_actionscript.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_add.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_add.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_c.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_c.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_camera.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_camera.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_cd.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_cd.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_code.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_code.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_code_red.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_code_red.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_coldfusion.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_coldfusion.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_compressed.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_compressed.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_copy.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_copy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_cplusplus.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_cplusplus.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_csharp.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_csharp.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_cup.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_cup.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_database.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_database.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_delete.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_delete.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_dvd.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_dvd.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_edit.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_edit.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_error.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_error.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_excel.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_excel.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_find.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_find.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_flash.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_flash.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_freehand.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_freehand.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_gear.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_gear.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_get.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_get.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_go.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_go.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_h.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_h.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_horizontal.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_horizontal.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_key.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_key.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_lightning.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_lightning.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_link.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_link.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_magnify.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_magnify.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_medal.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_medal.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_office.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_office.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_paint.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_paint.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_paintbrush.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_paintbrush.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_paste.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_paste.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_php.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_php.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_picture.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_picture.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_powerpoint.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_powerpoint.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_put.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_put.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_ruby.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_ruby.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_stack.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_stack.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_star.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_star.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_swoosh.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_swoosh.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_text.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_text.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_text_width.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_text_width.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_tux.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_tux.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_vector.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_vector.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_visualstudio.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_visualstudio.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_width.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_width.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_word.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_word.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_world.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_world.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_wrench.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_wrench.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_zip.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_white_zip.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_word.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_word.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_world.png" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/icons/page_world.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/hawk/images/hawk.png" afterPath="$PROJECT_DIR$/node_modules/hawk/images/hawk.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/hawk/images/logo.png" afterPath="$PROJECT_DIR$/node_modules/hawk/images/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.component.js" afterPath="$PROJECT_DIR$/app/app.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.component.js.map" afterPath="$PROJECT_DIR$/app/app.component.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.component.ts" afterPath="$PROJECT_DIR$/app/app.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/compiler-cli/src/extract_i18n.js" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler-cli/src/extract_i18n.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/compiler-cli/src/main.js" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler-cli/src/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/agent-base/node_modules/semver/bin/semver" afterPath="$PROJECT_DIR$/node_modules/agent-base/node_modules/semver/bin/semver" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/angular2/package.json" afterPath="$PROJECT_DIR$/node_modules/angular2/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/arr-diff/LICENSE" afterPath="$PROJECT_DIR$/node_modules/arr-diff/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/arr-flatten/LICENSE" afterPath="$PROJECT_DIR$/node_modules/arr-flatten/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/arr-flatten/README.md" afterPath="$PROJECT_DIR$/node_modules/arr-flatten/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/arr-flatten/index.js" afterPath="$PROJECT_DIR$/node_modules/arr-flatten/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/array-unique/LICENSE" afterPath="$PROJECT_DIR$/node_modules/array-unique/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/array-unique/README.md" afterPath="$PROJECT_DIR$/node_modules/array-unique/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/array-unique/index.js" afterPath="$PROJECT_DIR$/node_modules/array-unique/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/benchmark/test/run-test.sh" afterPath="$PROJECT_DIR$/node_modules/benchmark/test/run-test.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/boom/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/boom/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/boom/LICENSE" afterPath="$PROJECT_DIR$/node_modules/boom/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/boom/README.md" afterPath="$PROJECT_DIR$/node_modules/boom/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/boom/lib/index.js" afterPath="$PROJECT_DIR$/node_modules/boom/lib/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/boom/test/index.js" afterPath="$PROJECT_DIR$/node_modules/boom/test/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/grunt/change-version.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/grunt/change-version.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/browser-sync-client/dist/index.js" afterPath="$PROJECT_DIR$/node_modules/browser-sync-client/dist/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/browser-sync-client/dist/index.min.js" afterPath="$PROJECT_DIR$/node_modules/browser-sync-client/dist/index.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/browser-sync-ui/lib/plugins/remote-debug/css/pesticide-depth.css" afterPath="$PROJECT_DIR$/node_modules/browser-sync-ui/lib/plugins/remote-debug/css/pesticide-depth.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/browser-sync-ui/lib/plugins/remote-debug/css/pesticide.css" afterPath="$PROJECT_DIR$/node_modules/browser-sync-ui/lib/plugins/remote-debug/css/pesticide.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/browser-sync-ui/lib/plugins/remote-debug/css/pesticide.min.css" afterPath="$PROJECT_DIR$/node_modules/browser-sync-ui/lib/plugins/remote-debug/css/pesticide.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/browser-sync-ui/lib/plugins/remote-debug/overlay-grid/css/grid-overlay-horizontal.css" afterPath="$PROJECT_DIR$/node_modules/browser-sync-ui/lib/plugins/remote-debug/overlay-grid/css/grid-overlay-horizontal.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/browser-sync-ui/lib/plugins/remote-debug/overlay-grid/css/grid-overlay-vertical.css" afterPath="$PROJECT_DIR$/node_modules/browser-sync-ui/lib/plugins/remote-debug/overlay-grid/css/grid-overlay-vertical.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/browser-sync-ui/public/css/core.css.map" afterPath="$PROJECT_DIR$/node_modules/browser-sync-ui/public/css/core.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-bold-webfont.svg" afterPath="$PROJECT_DIR$/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-bold-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-it-webfont.svg" afterPath="$PROJECT_DIR$/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-it-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-regular-webfont.svg" afterPath="$PROJECT_DIR$/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-regular-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/browser-sync/bin/browser-sync.js" afterPath="$PROJECT_DIR$/node_modules/browser-sync/bin/browser-sync.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/browser-sync/index.js" afterPath="$PROJECT_DIR$/node_modules/browser-sync/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/browser-sync/lib/server/certs/gen.sh" afterPath="$PROJECT_DIR$/node_modules/browser-sync/lib/server/certs/gen.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/concurrently/src/main.js" afterPath="$PROJECT_DIR$/node_modules/concurrently/src/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/concurrently/tools/release.js" afterPath="$PROJECT_DIR$/node_modules/concurrently/tools/release.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cryptiles/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/cryptiles/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cryptiles/LICENSE" afterPath="$PROJECT_DIR$/node_modules/cryptiles/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cryptiles/lib/index.js" afterPath="$PROJECT_DIR$/node_modules/cryptiles/lib/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cryptiles/test/index.js" afterPath="$PROJECT_DIR$/node_modules/cryptiles/test/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ctype/tools/jsl.conf" afterPath="$PROJECT_DIR$/node_modules/ctype/tools/jsl.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ctype/tools/jsstyle" afterPath="$PROJECT_DIR$/node_modules/ctype/tools/jsstyle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/dev-ip/lib/dev-ip.js" afterPath="$PROJECT_DIR$/node_modules/dev-ip/lib/dev-ip.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/easy-extender/index.js" afterPath="$PROJECT_DIR$/node_modules/easy-extender/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eazy-logger/index.js" afterPath="$PROJECT_DIR$/node_modules/eazy-logger/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/engine.io-client/lib/transports/index.js" afterPath="$PROJECT_DIR$/node_modules/engine.io-client/lib/transports/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/engine.io-client/lib/transports/polling-xhr.js" afterPath="$PROJECT_DIR$/node_modules/engine.io-client/lib/transports/polling-xhr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/bin/express" afterPath="$PROJECT_DIR$/node_modules/express/bin/express" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fill-range/LICENSE" afterPath="$PROJECT_DIR$/node_modules/fill-range/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fill-range/README.md" afterPath="$PROJECT_DIR$/node_modules/fill-range/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/har-validator/bin/har-validator" afterPath="$PROJECT_DIR$/node_modules/har-validator/bin/har-validator" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/has-ansi/cli.js" afterPath="$PROJECT_DIR$/node_modules/has-ansi/cli.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/hawk/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/hawk/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/hawk/LICENSE" afterPath="$PROJECT_DIR$/node_modules/hawk/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/hawk/README.md" afterPath="$PROJECT_DIR$/node_modules/hawk/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/hawk/example/usage.js" afterPath="$PROJECT_DIR$/node_modules/hawk/example/usage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/hawk/lib/browser.js" afterPath="$PROJECT_DIR$/node_modules/hawk/lib/browser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/hawk/lib/client.js" afterPath="$PROJECT_DIR$/node_modules/hawk/lib/client.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/hawk/lib/crypto.js" afterPath="$PROJECT_DIR$/node_modules/hawk/lib/crypto.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/hawk/lib/index.js" afterPath="$PROJECT_DIR$/node_modules/hawk/lib/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/hawk/lib/server.js" afterPath="$PROJECT_DIR$/node_modules/hawk/lib/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/hawk/lib/utils.js" afterPath="$PROJECT_DIR$/node_modules/hawk/lib/utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/hawk/test/browser.js" afterPath="$PROJECT_DIR$/node_modules/hawk/test/browser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/hawk/test/client.js" afterPath="$PROJECT_DIR$/node_modules/hawk/test/client.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/hawk/test/crypto.js" afterPath="$PROJECT_DIR$/node_modules/hawk/test/crypto.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/hawk/test/index.js" afterPath="$PROJECT_DIR$/node_modules/hawk/test/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/hawk/test/readme.js" afterPath="$PROJECT_DIR$/node_modules/hawk/test/readme.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/hawk/test/server.js" afterPath="$PROJECT_DIR$/node_modules/hawk/test/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/hawk/test/uri.js" afterPath="$PROJECT_DIR$/node_modules/hawk/test/uri.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/hawk/test/utils.js" afterPath="$PROJECT_DIR$/node_modules/hawk/test/utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lite-server/bin/lite-server" afterPath="$PROJECT_DIR$/node_modules/lite-server/bin/lite-server" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/localtunnel/bin/client" afterPath="$PROJECT_DIR$/node_modules/localtunnel/bin/client" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/loose-envify/cli.js" afterPath="$PROJECT_DIR$/node_modules/loose-envify/cli.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/micromatch/LICENSE" afterPath="$PROJECT_DIR$/node_modules/micromatch/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/micromatch/index.js" afterPath="$PROJECT_DIR$/node_modules/micromatch/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mkdirp/bin/cmd.js" afterPath="$PROJECT_DIR$/node_modules/mkdirp/bin/cmd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-uuid/benchmark/bench.sh" afterPath="$PROJECT_DIR$/node_modules/node-uuid/benchmark/bench.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-uuid/bin/uuid" afterPath="$PROJECT_DIR$/node_modules/node-uuid/bin/uuid" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nopt/bin/nopt.js" afterPath="$PROJECT_DIR$/node_modules/nopt/bin/nopt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nopt/examples/my-program.js" afterPath="$PROJECT_DIR$/node_modules/nopt/examples/my-program.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/object-path/.npmignore" afterPath="$PROJECT_DIR$/node_modules/object-path/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/object-path/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/object-path/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/object-path/LICENSE" afterPath="$PROJECT_DIR$/node_modules/object-path/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/object-path/README.md" afterPath="$PROJECT_DIR$/node_modules/object-path/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/opn/xdg-open" afterPath="$PROJECT_DIR$/node_modules/opn/xdg-open" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/qs/lib/index.js" afterPath="$PROJECT_DIR$/node_modules/qs/lib/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/qs/lib/parse.js" afterPath="$PROJECT_DIR$/node_modules/qs/lib/parse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/qs/lib/stringify.js" afterPath="$PROJECT_DIR$/node_modules/qs/lib/stringify.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/qs/lib/utils.js" afterPath="$PROJECT_DIR$/node_modules/qs/lib/utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/qs/test/parse.js" afterPath="$PROJECT_DIR$/node_modules/qs/test/parse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/qs/test/stringify.js" afterPath="$PROJECT_DIR$/node_modules/qs/test/stringify.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/qs/test/utils.js" afterPath="$PROJECT_DIR$/node_modules/qs/test/utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/randomatic/LICENSE" afterPath="$PROJECT_DIR$/node_modules/randomatic/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rc/index.js" afterPath="$PROJECT_DIR$/node_modules/rc/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/request/index.js" afterPath="$PROJECT_DIR$/node_modules/request/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rimraf/bin.js" afterPath="$PROJECT_DIR$/node_modules/rimraf/bin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/semver/bin/semver" afterPath="$PROJECT_DIR$/node_modules/semver/bin/semver" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/send/node_modules/mime/cli.js" afterPath="$PROJECT_DIR$/node_modules/send/node_modules/mime/cli.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sntp/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/sntp/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sntp/LICENSE" afterPath="$PROJECT_DIR$/node_modules/sntp/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sntp/Makefile" afterPath="$PROJECT_DIR$/node_modules/sntp/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sntp/README.md" afterPath="$PROJECT_DIR$/node_modules/sntp/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sntp/examples/offset.js" afterPath="$PROJECT_DIR$/node_modules/sntp/examples/offset.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sntp/examples/time.js" afterPath="$PROJECT_DIR$/node_modules/sntp/examples/time.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sntp/index.js" afterPath="$PROJECT_DIR$/node_modules/sntp/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sntp/lib/index.js" afterPath="$PROJECT_DIR$/node_modules/sntp/lib/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sntp/test/index.js" afterPath="$PROJECT_DIR$/node_modules/sntp/test/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/source-map-support/build.js" afterPath="$PROJECT_DIR$/node_modules/source-map-support/build.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/test/run-tests.js" afterPath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/test/run-tests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/spdx-license-ids/README.md" afterPath="$PROJECT_DIR$/node_modules/spdx-license-ids/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stream-throttle/bin/throttleproxy.js" afterPath="$PROJECT_DIR$/node_modules/stream-throttle/bin/throttleproxy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/strip-ansi/cli.js" afterPath="$PROJECT_DIR$/node_modules/strip-ansi/cli.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/strip-json-comments/cli.js" afterPath="$PROJECT_DIR$/node_modules/strip-json-comments/cli.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/supports-color/cli.js" afterPath="$PROJECT_DIR$/node_modules/supports-color/cli.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/touch/bin/touch.js" afterPath="$PROJECT_DIR$/node_modules/touch/bin/touch.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/touch/node_modules/nopt/bin/nopt.js" afterPath="$PROJECT_DIR$/node_modules/touch/node_modules/nopt/bin/nopt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/touch/node_modules/nopt/examples/my-program.js" afterPath="$PROJECT_DIR$/node_modules/touch/node_modules/nopt/examples/my-program.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tsickle/build/src/main.js" afterPath="$PROJECT_DIR$/node_modules/tsickle/build/src/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/bin/tsc" afterPath="$PROJECT_DIR$/node_modules/typescript/bin/tsc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/bin/tsserver" afterPath="$PROJECT_DIR$/node_modules/typescript/bin/tsserver" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typings-core/node_modules/typescript/bin/tsc" afterPath="$PROJECT_DIR$/node_modules/typings-core/node_modules/typescript/bin/tsc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typings-core/node_modules/typescript/bin/tsserver" afterPath="$PROJECT_DIR$/node_modules/typings-core/node_modules/typescript/bin/tsserver" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typings/dist/bin.js" afterPath="$PROJECT_DIR$/node_modules/typings/dist/bin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/utf8/tests/generate-test-data.py" afterPath="$PROJECT_DIR$/node_modules/utf8/tests/generate-test-data.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uuid/benchmark/bench.sh" afterPath="$PROJECT_DIR$/node_modules/uuid/benchmark/bench.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/weinre/weinre" afterPath="$PROJECT_DIR$/node_modules/weinre/weinre" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/window-size/cli.js" afterPath="$PROJECT_DIR$/node_modules/window-size/cli.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/wrap-ansi/index.js" afterPath="$PROJECT_DIR$/node_modules/wrap-ansi/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/window-size/cli.js" afterPath="$PROJECT_DIR$/node_modules/yargs/node_modules/window-size/cli.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/calculator.service.js" afterPath="$PROJECT_DIR$/app/calculator.service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/calculator.service.js.map" afterPath="$PROJECT_DIR$/app/calculator.service.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="calculator_fronted.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -286,44 +31,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+            <state relative-caret-position="450">
+              <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
               <folding>
-                <element signature="e#0#40#0" expanded="true" />
-                <marker date="1474027514000" expanded="true" signature="305:357" ph="..." />
+                <element signature="e#0#42#0" expanded="true" />
+                <marker date="1474231934378" expanded="true" signature="296:721" ph="..." />
+                <marker date="1474231934378" expanded="true" signature="327:704" ph="..." />
+                <marker date="1474231934378" expanded="true" signature="440:573" ph="..." />
+                <marker date="1474231934378" expanded="true" signature="470:480" ph="..." />
+                <marker date="1474231934378" expanded="true" signature="481:552" ph="..." />
+                <marker date="1474231934378" expanded="true" signature="619:685" ph="..." />
+                <marker date="1474231934378" expanded="true" signature="768:950" ph="..." />
+                <marker date="1474231934378" expanded="true" signature="884:936" ph="..." />
+                <marker date="1474231934378" expanded="true" signature="988:999" ph="..." />
+                <marker date="1474231934378" expanded="true" signature="1000:1032" ph="..." />
+                <marker date="1474231934378" expanded="true" signature="1061:1157" ph="..." />
+                <marker date="1474231934378" expanded="true" signature="1189:1194" ph="..." />
+                <marker date="1474231934378" expanded="true" signature="1333:2587" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="dialog.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/dialog.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+            <state relative-caret-position="-9">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="todoItem.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/todoItem.ts">
+      <file leaf-file-name="app.component.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/app.component.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="195">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lib.webworker.d.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/typescript/lib/lib.webworker.d.ts">
+      <file leaf-file-name="app.component.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/app.component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="225">
+              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -332,51 +89,11 @@
       <file leaf-file-name="calculator.service.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/calculator.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="28" column="124" selection-start-line="28" selection-start-column="124" selection-end-line="28" selection-end-column="124" />
+            <state relative-caret-position="0">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
               <folding>
-                <element signature="e#0#47#0" expanded="true" />
+                <element signature="e#412#508#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="body.d.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/@angular/http/src/body.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="static_request.d.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/@angular/http/src/static_request.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="http.d.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/@angular/http/src/http.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -384,8 +101,8 @@
       <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            <state relative-caret-position="300">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="e#0#46#0" expanded="true" />
               </folding>
@@ -402,13 +119,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/npm-debug.log" />
-        <option value="$PROJECT_DIR$/app/app.module.ts" />
         <option value="$PROJECT_DIR$/app/calc.json" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/app/calculator.service.ts" />
-        <option value="$PROJECT_DIR$/app/todoItem.ts" />
-        <option value="$PROJECT_DIR$/app/app.component.ts" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/app/todoItem.ts" />
+        <option value="$PROJECT_DIR$/app/server.response.ts" />
+        <option value="$PROJECT_DIR$/app/calculator.service.ts" />
+        <option value="$PROJECT_DIR$/app/app.component.css" />
+        <option value="$PROJECT_DIR$/app/dialog.ts" />
+        <option value="$PROJECT_DIR$/app/app.component.ts" />
       </list>
     </option>
   </component>
@@ -492,11 +212,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../calculator_api" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/artifaqiq/angular2/calculator_fronted/node_modules/@angular/http/src/http.d.ts" />
+    <property name="SearchEverywhereHistoryKey" value="inden&#9;null&#9;null" />
+    <property name="typescript-compiler-editor-notification" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -566,12 +289,13 @@
       <workItem from="1473798902994" duration="1616000" />
       <workItem from="1473878101969" duration="18698000" />
       <workItem from="1473954711556" duration="13291000" />
-      <workItem from="1474216994281" duration="220000" />
+      <workItem from="1474216994281" duration="8308000" />
+      <workItem from="1474225442634" duration="89000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33825000" />
+    <option name="totallyTimeSpent" value="46647000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1043" extended-state="0" />
@@ -580,20 +304,20 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973932" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944915" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -612,18 +336,146 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/dialog.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@angular/compiler/src/output/abstract_emitter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <marker date="1474231934378" expanded="true" signature="296:721" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="327:704" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="440:573" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="470:480" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="481:552" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="619:685" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="768:950" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="884:936" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="988:999" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="1000:1032" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="1061:1157" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="1189:1194" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="1333:2587" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
-            <marker date="1474027514000" expanded="true" signature="305:357" ph="..." />
+            <element signature="e#0#42#0" expanded="true" />
+            <marker date="1474231934378" expanded="true" signature="296:721" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="327:704" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="440:573" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="470:480" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="481:552" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="619:685" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="768:950" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="884:936" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="988:999" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="1000:1032" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="1061:1157" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="1189:1194" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="1333:2587" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/todoItem.ts">
+    <entry file="file://$PROJECT_DIR$/app/app.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/dialog.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/calculator.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="e#412#508#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <marker date="1474231934378" expanded="true" signature="296:721" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="327:704" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="440:573" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="470:480" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="481:552" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="619:685" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="768:950" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="884:936" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="988:999" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="1000:1032" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="1061:1157" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="1189:1194" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="1333:2587" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/dialog.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="1" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
@@ -635,7 +487,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -644,7 +495,7 @@
         <state relative-caret-position="360">
           <caret line="28" column="124" selection-start-line="28" selection-start-column="124" selection-end-line="28" selection-end-column="124" />
           <folding>
-            <element signature="e#0#47#0" expanded="true" />
+            <element signature="e#412#508#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -653,7 +504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -661,7 +511,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -669,7 +518,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -677,7 +525,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1125">
           <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -685,7 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -704,8 +550,20 @@
         <state relative-caret-position="105">
           <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
-            <marker date="1474027514000" expanded="true" signature="305:357" ph="..." />
+            <element signature="e#0#42#0" expanded="true" />
+            <marker date="1474231934378" expanded="true" signature="296:721" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="327:704" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="440:573" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="470:480" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="481:552" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="619:685" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="768:950" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="884:936" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="988:999" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="1000:1032" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="1061:1157" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="1189:1194" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="1333:2587" ph="..." />
           </folding>
         </state>
       </provider>
@@ -715,7 +573,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#47#0" expanded="true" />
+            <element signature="e#412#508#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -724,7 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -732,7 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -740,7 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1125">
           <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -748,7 +603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -757,6 +611,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -776,8 +631,20 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
-            <marker date="1474027514000" expanded="true" signature="305:357" ph="..." />
+            <element signature="e#0#42#0" expanded="true" />
+            <marker date="1474231934378" expanded="true" signature="296:721" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="327:704" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="440:573" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="470:480" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="481:552" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="619:685" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="768:950" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="884:936" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="988:999" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="1000:1032" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="1061:1157" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="1189:1194" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="1333:2587" ph="..." />
           </folding>
         </state>
       </provider>
@@ -787,6 +654,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -795,7 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -803,7 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -811,7 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -819,7 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1125">
           <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -827,7 +691,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -835,14 +705,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@angular/compiler/src/output/abstract_emitter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/server.response.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        <state relative-caret-position="300">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="e#0#46#0" expanded="true" />
           </folding>
@@ -851,38 +757,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/calculator.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="28" column="124" selection-start-line="28" selection-start-column="124" selection-end-line="28" selection-end-column="124" />
+        <state relative-caret-position="0">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
           <folding>
-            <element signature="e#0#47#0" expanded="true" />
+            <element signature="e#412#508#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/todoItem.ts">
+    <entry file="file://$PROJECT_DIR$/app/app.component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="225">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/dialog.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        <state relative-caret-position="450">
+          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
-            <marker date="1474027514000" expanded="true" signature="305:357" ph="..." />
+            <element signature="e#0#42#0" expanded="true" />
+            <marker date="1474231934378" expanded="true" signature="296:721" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="327:704" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="440:573" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="470:480" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="481:552" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="619:685" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="768:950" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="884:936" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="988:999" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="1000:1032" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="1061:1157" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="1189:1194" ph="..." />
+            <marker date="1474231934378" expanded="true" signature="1333:2587" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
