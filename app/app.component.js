@@ -31,7 +31,7 @@ var AppComponent = (function () {
         }, function (error) {
             console.error(error);
             _this.currentStatus = 'error';
-            _this.currentResult = 'Input error';
+            _this.currentResult = 'Syntax error: incorrect expressuin';
         });
         console.log("result = " + this.currentResult);
         console.log("status = " + this.currentStatus);
