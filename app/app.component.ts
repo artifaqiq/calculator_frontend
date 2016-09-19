@@ -9,8 +9,12 @@ import 'rxjs/add/operator/map';
   template: `
           <div *ngFor="let dialog of dialogs; let i = index">
             <div *ngIf="i!=0">
-              <p> $ </p> 
-              {{dialog.getCommand()}}<br>
+              <div width=15% style="float: left">
+                <p> $ </p>
+              </div> 
+              <div width=80%>
+                {{dialog.getCommand()}}<br>
+              </div>
               <div *ngIf="dialog.isError()">
                 <div style="color: red">
                     {{dialog.getResult()}} <br>
@@ -23,16 +27,20 @@ import 'rxjs/add/operator/map';
           </div>
        
       <div *ngIf="dialogs.length !=0">
-          <p>$</p> 
-          {{currentCommand}}<br>
+          <div width=15% style="float: left">
+               <p> $ </p>
+          </div>
+          <div width=80%>
+            {{currentCommand}}<br>
+          </div>
+          <div style="cleat: left"></div>
           <div [style.color] = "statusToColor(currentStatus)">
             {{currentResult}} <br>
           </div>
-
       </div>
        
       <div width=15% style="float: left">
-        <p> $ </p>
+        <p>$</p>
       </div>
       
       <div width=80%>
@@ -41,7 +49,7 @@ import 'rxjs/add/operator/map';
       
       <div clear: left;>
     `,
-    styleUrls: ['app/app.component.css'],
+  styleUrls: ['app/app.component.css'],
 
     providers: [CalculatorService]
 })
@@ -74,7 +82,7 @@ export class AppComponent {
             error => {
               console.error(error)
               this.currentStatus = 'error'
-              this.currentResult = 'Syntax error: incorrect expressuin'
+              this.currentResult = 'Server error: ' + error.to_s
             }
         );
 

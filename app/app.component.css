@@ -1,5 +1,6 @@
 div {
-    color: white; 
+    color: white;
+    word-wrap: break-word;
 }
 
 b {

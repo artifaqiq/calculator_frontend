@@ -31,7 +31,7 @@ var AppComponent = (function () {
         }, function (error) {
             console.error(error);
             _this.currentStatus = 'error';
-            _this.currentResult = 'Syntax error: incorrect expressuin';
+            _this.currentResult = 'Server error: ' + error.to_s;
         });
         console.log("result = " + this.currentResult);
         console.log("status = " + this.currentStatus);
@@ -55,7 +55,7 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: "\n          <div *ngFor=\"let dialog of dialogs; let i = index\">\n            <div *ngIf=\"i!=0\">\n              <p> $ </p> \n              {{dialog.getCommand()}}<br>\n              <div *ngIf=\"dialog.isError()\">\n                <div style=\"color: red\">\n                    {{dialog.getResult()}} <br>\n                </div>\n              </div>\n              <div *ngIf=\"!dialog.isError()\">\n                {{dialog.getResult()}} <br>\n               </div>\n            </div>\n          </div>\n       \n      <div *ngIf=\"dialogs.length !=0\">\n          <p>$</p> \n          {{currentCommand}}<br>\n          <div [style.color] = \"statusToColor(currentStatus)\">\n            {{currentResult}} <br>\n          </div>\n\n      </div>\n       \n      <div width=15% style=\"float: left\">\n        <p> $ </p>\n      </div>\n      \n      <div width=80%>\n          <textarea autofocus (keyup)=\"doneTyping($event)\" id=\"inText\"></textarea>\n      </div>\n      \n      <div clear: left;>\n    ",
+            template: "\n          <div *ngFor=\"let dialog of dialogs; let i = index\">\n            <div *ngIf=\"i!=0\">\n              <div width=15% style=\"float: left\">\n                <p> $ </p>\n              </div> \n              <div width=80%>\n                {{dialog.getCommand()}}<br>\n              </div>\n              <div *ngIf=\"dialog.isError()\">\n                <div style=\"color: red\">\n                    {{dialog.getResult()}} <br>\n                </div>\n              </div>\n              <div *ngIf=\"!dialog.isError()\">\n                {{dialog.getResult()}} <br>\n               </div>\n            </div>\n          </div>\n       \n      <div *ngIf=\"dialogs.length !=0\">\n          <div width=15% style=\"float: left\">\n               <p> $ </p>\n          </div>\n          <div width=80%>\n            {{currentCommand}}<br>\n          </div>\n          <div style=\"cleat: left\"></div>\n          <div [style.color] = \"statusToColor(currentStatus)\">\n            {{currentResult}} <br>\n          </div>\n      </div>\n       \n      <div width=15% style=\"float: left\">\n        <p>$</p>\n      </div>\n      \n      <div width=80%>\n          <textarea autofocus (keyup)=\"doneTyping($event)\" id=\"inText\"></textarea>\n      </div>\n      \n      <div clear: left;>\n    ",
             styleUrls: ['app/app.component.css'],
             providers: [calculator_service_1.CalculatorService]
         }), 
